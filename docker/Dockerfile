@@ -8,5 +8,6 @@ RUN apk update \
     && rm -rf /var/cache/apk/*
 
 COPY start-squid.sh /usr/local/bin/
+COPY squid.conf /etc/squid
 
 ENTRYPOINT ["/usr/local/bin/start-squid.sh"]
