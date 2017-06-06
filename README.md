@@ -26,5 +26,5 @@ Configuration
 
 Pre-configured like below.
 
- - Use 4GB diskspace under /var/cache/squid for cache
- - Cache any data upto 32 MB
+ - Use 8GB diskspace under /var/cache/squid for cache
+ - Cache any data upto 200 MB
